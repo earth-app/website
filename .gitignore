@@ -6,6 +6,7 @@
 .cache
 dist
 package-lock.json
+desktop.ini
 
 # Node dependencies
 node_modules

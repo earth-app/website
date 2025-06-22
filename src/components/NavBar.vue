@@ -1,5 +1,5 @@
 <template>
-    <div id="navbar" class="bg-secondary flex items-center p-4 text-white font-title border-b-primary border-b-8">
+    <div id="navbar" class="bg-secondary flex items-center p-4 text-white font-title border-b-primary border-b-8 w-full">
         <div class="flex items-center">
             <a href="https://app.earth-app.com">
                 <img src="/favicon.png" alt="Earth App Logo" class="h-8 w-8 mr-2">
