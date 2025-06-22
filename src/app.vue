@@ -31,6 +31,12 @@ useSeoMeta({
     description: SITE_DESCRIPTION,
     ogDescription: SITE_DESCRIPTION,
     ogImage: 'https://cdn.earth-app.com/earth-app.png',
+    ogLocale: 'en_US',
+    ogType: 'website',
+    ogSiteName: SITE_NAME,
+    ogUrl: 'https://earth-app.com',
+    twitterTitle: SITE_NAME,
     twitterCard: 'summary_large_image',
+    twitterCreator: '@gmitch215'
 })
 </script>
