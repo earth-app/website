@@ -1,5 +1,5 @@
 <template>
-   <div id="app" class="bg-gray-800 h-full w-full">
+   <div id="app" class="bg-gray-800 min-h-screen min-w-screen h-full w-full">
         <NavBar />
         <Body />
    </div>
@@ -27,8 +27,8 @@ useHead({
 
 useSeoMeta({
     title: SITE_NAME,
-    ogTitle: SITE_NAME,
     description: SITE_DESCRIPTION,
+    ogTitle: SITE_NAME,
     ogDescription: SITE_DESCRIPTION,
     ogImage: 'https://cdn.earth-app.com/earth-app.png',
     ogLocale: 'en_US',
@@ -36,6 +36,7 @@ useSeoMeta({
     ogSiteName: SITE_NAME,
     ogUrl: 'https://earth-app.com',
     twitterTitle: SITE_NAME,
+    twitterDescription: SITE_DESCRIPTION,
     twitterCard: 'summary_large_image',
     twitterCreator: '@gmitch215'
 })

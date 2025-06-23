@@ -1,7 +1,32 @@
 <template>
-	<main class="h-screen text-white">
+	<main class="min-h-screen h-full pb-8 text-white">
 		<div class="flex flex-col items-center justify-center w-full">
-			<a ref="containerRef" href="https://app.earth-app.com" class="relative h-80 w-80 mb-32 mt-44">
+            <InfoCard
+                title="Proactive"
+                icon="lucide:handshake"
+                description="Prioritize real-world connections with people around you."
+                class="absolute bg-orange-500 shadow-lg shadow-orange-500/50 left-1/24 top-1/6 min-w-50 w-1/6 motion-delay-600 hover:opacity-90 transform"
+            />
+            <InfoCard
+                title="Personal"
+                icon="material-symbols:person-add-rounded"
+                description="Connect with individuals, not just profiles. You control your experience, not us."
+                class="absolute bg-blue-500 shadow-lg shadow-blue-500/50 right-1/24 top-1/4 min-w-50 w-1/6 motion-delay-1100 hover:opacity-90 transform"
+            />
+            <InfoCard
+                title="Private"
+                icon="charm:shield-tick"
+                description="Standard end-to-end encryption ensures you prioritize going outside. When was the last time you did that?"
+                class="absolute bg-green-500 shadow-lg shadow-green-500/50 left-1/16 top-3/5 min-w-50 w-1/6 motion-delay-1600 hover:opacity-90 transform"
+            />
+            <InfoCard
+                title="Powerful"
+                icon="mdi:gear"
+                description="AI-powered features enchance your experience, keeping you engaged, informed, and connected."
+                class="absolute bg-purple-500 shadow-lg shadow-purple-500/50 right-1/12 top-2/3 min-w-50 w-1/6 motion-delay-2100 hover:opacity-90 transform"
+            />
+            
+            <a ref="containerRef" href="https://app.earth-app.com" class="relative h-80 w-80 mb-32 mt-28">
 				<img 
 					src="/favicon.png"
 					alt="Earth App Logo" 
@@ -22,31 +47,6 @@
 			<h1 class="font-title text-6xl font-bold mb-2">Meet Real People.</h1>
             <h3 class="hover:text-primary transition"><a href="https://app.earth-app.com">Click to Get Started.</a></h3>
 		</div>
-
-        <InfoCard
-            title="Proactive"
-            icon="lucide:handshake"
-            description="Prioritize real-world connections with people around you."
-            class="relative bg-orange-500 shadow-lg shadow-orange-500/50 left-1/16 bottom-3/5 min-w-50 w-1/6 motion-delay-600 hover:opacity-90 transform"
-        />
-        <InfoCard
-            title="Personal"
-            icon="material-symbols:person-add-rounded"
-            description="Connect with individuals, not just profiles. You control your experience, not us."
-            class="relative bg-blue-500 shadow-lg shadow-blue-500/50 left-4/5 bottom-5/8 min-w-50 w-1/6 motion-delay-1100 hover:opacity-90 transform"
-        />
-        <InfoCard
-            title="Private"
-            icon="charm:shield-tick"
-            description="Standard end-to-end encryption ensures you prioritize going outside. When was the last time you did that?"
-            class="relative bg-green-500 shadow-lg shadow-green-500/50 left-1/12 bottom-1/2 min-w-50 w-1/6 motion-delay-1600 hover:opacity-90 transform"
-        />
-        <InfoCard
-            title="Powerful"
-            icon="mdi:gear"
-            description="AI-powered features enchance your experience, keeping you engaged, informed, and connected."
-            class="relative bg-purple-500 shadow-lg shadow-purple-500/50 left-7/10 bottom-1/2 min-w-50 w-1/6 motion-delay-2100 hover:opacity-90 transform"
-        />
 	</main>
 </template>
 
