@@ -1,7 +1,7 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-    ssr: false,
+    ssr: true,
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
     srcDir: 'src',
@@ -13,6 +13,10 @@ export default defineNuxtConfig({
     },
     nitro: {
         preset: 'static',
+        prerender: {
+            crawlLinks: true,
+            routes: ['/']
+        }
     },
 
     modules: [
