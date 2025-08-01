@@ -45,6 +45,7 @@
             </a>
 
 			<h1 class="font-title text-6xl font-bold mb-2">Meet Real People.</h1>
+			<h1 class="font-title text-6xl font-bold mb-2">Try New Things.</h1>
             <h3 class="hover:text-primary transition"><a href="https://app.earth-app.com">Click to Get Started.</a></h3>
 		</div>
 	</main>
